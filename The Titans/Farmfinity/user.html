@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmfinity-Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Croissant+One&family=Homemade+Apple&family=Poppins:wght@700&family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><img src="images/FARMFINITY3.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class='bx bx-x' id="X" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cate.html">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <!----nav icons---->
+        <div class="icons">
+            <div class="bx bx-search-alt search" id="search"></div>
+            <div class='bx bx-cart' id="cart"></div>
+            <a href="user.html"><div class='bx bxs-user' id="user"></div></a>
+            <div class='bx bx-menu-alt-right' id="menu" onclick="showMenu()"></div>
+        </div>
+
+        <!----search form---->
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here..........">
+            <label for="search-box" class="bx bx-search-alt"></label>
+        </form>
+
+        <!-----Cart----->
+        <div class="cart">
+            <div class="box">
+                <i class='bx bxs-trash'></i>
+                <img src="images/tomato.png">
+                <div class="content">
+                    <h3>Tomato</h3>
+                    <span class="price">৳ 48/=</span>
+                    <span class="quantity">Qty : 500 gm</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-trash'></i>
+                <img src="images/eggs.png">
+                <div class="content">
+                    <h3>Egg</h3>
+                    <span class="price">৳ 140/=</span>
+                    <span class="quantity">Qty : 12 pcs</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-trash'></i>
+                <img src="images/red-apple.png">
+                <div class="content">
+                    <h3>Apple</h3>
+                    <span class="price">৳ 365/=</span>
+                    <span class="quantity">Qty : 1 kg</span>
+                </div>
+            </div>
+
+            <div class="total"> Total : ৳ 553/=</div>
+            <a href="#" class="btn-ck">Checkout</a>
+        </div>
+    </nav>
+    <!-------Navbar End------->
+
+
+    <!---------Account--------->
+    <div class="wrapper">
+        <a href="index.html">
+           <span class="icon-close">
+            <i class='bx bx-x'></i>
+           </span>
+        </a>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-envelope'></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock'></i>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-log">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register Now</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-user'></i>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-envelope'></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock'></i>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        I agree to the terms and conditions
+                    </label>
+                </div>
+                <button type="submit" class="btn-log">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    <!----Javascript work---->
+    <script src="user.js"></script>
+
+</body>
+</html>
