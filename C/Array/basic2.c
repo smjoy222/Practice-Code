@@ -4,7 +4,7 @@ int main() {
     int i, sum = 0, num[10];
 
     for (i = 0; i < 10; i++) {
-        num[i] = i + 1; 
+       num[i] = i + 1; 
     }
 
     for (i = 0; i < 10; i++) {
