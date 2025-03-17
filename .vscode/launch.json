@@ -1,0 +1,566 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Cal",
+      "request": "launch",
+      "mainClass": "Cal",
+      "projectName": "Practice Code_5eff1c3f"
+    },
+    {
+      "type": "java",
+      "name": "large",
+      "request": "launch",
+      "mainClass": "large",
+      "projectName": "Practice Code_5eff1c3f"
+    },
+    {
+      "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "Thread.Main2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Thread.Main",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Encapsulation.first.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "Abstruction.abstraction.Dog",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Idog",
+      "request": "launch",
+      "mainClass": "Abstruction.abstraction.Idog",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "testing",
+      "request": "launch",
+      "mainClass": "Encapsulate_enc.testing",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "testing",
+      "request": "launch",
+      "mainClass": "Encapsulate.enc.testing",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "basic.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Encapsulation.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Encapsulation.basic.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Encapsulation.encapsulation.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "countclass.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Inheritance.basic.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Encapsulation.encap.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "parameterpass.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Static.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "returnmethod.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "constructor.Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "pos",
+      "request": "launch",
+      "mainClass": "pos",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Pos",
+      "request": "launch",
+      "mainClass": "Pos",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Permutation2",
+      "request": "launch",
+      "mainClass": "Permutation2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Permutation",
+      "request": "launch",
+      "mainClass": "Permutation",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Fact",
+      "request": "launch",
+      "mainClass": "Fact",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Remove",
+      "request": "launch",
+      "mainClass": "Remove",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "remove",
+      "request": "launch",
+      "mainClass": "remove",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "power",
+      "request": "launch",
+      "mainClass": "power",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "large",
+      "request": "launch",
+      "mainClass": "large",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Frequency",
+      "request": "launch",
+      "mainClass": "Frequency",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "Reverse",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Check",
+      "request": "launch",
+      "mainClass": "Check",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Sort",
+      "request": "launch",
+      "mainClass": "Sort",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "countsd2",
+      "request": "launch",
+      "mainClass": "countsd2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "countsd",
+      "request": "launch",
+      "mainClass": "countsd",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "hcf",
+      "request": "launch",
+      "mainClass": "hcf",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "LcmGdc",
+      "request": "launch",
+      "mainClass": "LcmGdc",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Series",
+      "request": "launch",
+      "mainClass": "Series",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Harmonic",
+      "request": "launch",
+      "mainClass": "Harmonic",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "pyramid2",
+      "request": "launch",
+      "mainClass": "pyramid2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "pyramid",
+      "request": "launch",
+      "mainClass": "pyramid",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "practice",
+      "request": "launch",
+      "mainClass": "practice",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Temperature2",
+      "request": "launch",
+      "mainClass": "Temperature2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Temperature",
+      "request": "launch",
+      "mainClass": "Temperature",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Multiple",
+      "request": "launch",
+      "mainClass": "Multiple",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Convert",
+      "request": "launch",
+      "mainClass": "Convert",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Possition2",
+      "request": "launch",
+      "mainClass": "Possition2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "possition",
+      "request": "launch",
+      "mainClass": "possition",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Cube",
+      "request": "launch",
+      "mainClass": "Cube",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "count",
+      "request": "launch",
+      "mainClass": "count",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Positive",
+      "request": "launch",
+      "mainClass": "Positive",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "BanglaMonth2",
+      "request": "launch",
+      "mainClass": "BanglaMonth2",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "BanglaMonth",
+      "request": "launch",
+      "mainClass": "BanglaMonth",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Triangle",
+      "request": "launch",
+      "mainClass": "Triangle",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "odd02",
+      "request": "launch",
+      "mainClass": "odd02",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "odd",
+      "request": "launch",
+      "mainClass": "odd",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "rectangle",
+      "request": "launch",
+      "mainClass": "rectangle",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Cal",
+      "request": "launch",
+      "mainClass": "Cal",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Car",
+      "request": "launch",
+      "mainClass": "vehicle.Car",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Line",
+      "request": "launch",
+      "mainClass": "Drawing.Line",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "TestInterface",
+      "request": "launch",
+      "mainClass": "bank.TestInterface",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Idog",
+      "request": "launch",
+      "mainClass": "abstraction.Idog",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Idog",
+      "request": "launch",
+      "mainClass": "Idog",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "Dog",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "abstraction.Dog",
+      "projectName": "Practice Code_144b545f",
+      "noDebug": false,
+      "__progressId": "62c15aa8-ce7d-46ad-a5ec-3bee74130eea",
+      "__origin": "internal"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "Animal.Dog",
+      "projectName": "Practice Code_144b545f"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

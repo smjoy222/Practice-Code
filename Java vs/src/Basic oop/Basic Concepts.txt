@@ -1,0 +1,21 @@
+Local variable:
+  use in methods
+  use in constructor
+  use in block
+
+Instance variable
+   use in class
+   but not static
+   To use Instance variable as Local variable use (This.variableName) keywords
+
+Static variable
+   declare static is static variable
+
+
+
+we cant access private variable by extend one's class 
+
+
+Usefull links 
+https://www.javatpoint.com/java-oops-concepts
+

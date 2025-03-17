@@ -1,0 +1,64 @@
+**for Commit any changes
+
+git status
+git add .
+git add <filename>    --(for specific file)
+git commit -m "Your commit message here"
+git push origin main
+
+
+
+________________________________________________
+**for  switching another repo
+
+cd E:/Projects/MyRepo
+git status
+git add .    or   git add <file-name>
+git commit -m "Your commit message here"
+git push origin main   or master 
+
+
+_____________________________________________________
+**for 1st time setup git command
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin repository-url
+
+git push -u origin master
+
+
+
+if i create any repo from vs code it will create master branch but if i create from web it will create main branch ... so that main branch cant handle by vs code souce control pannel
+-------------------------------------------------------
+
+git branch
+
+git push -u origin master
+
+git branch -m master main
+
+git push -u origin main
+
+git push origin --delete master
+
+if error try rest
+___________________________________________________________
+
+
+git pull origin main
+
+git add .
+
+git commit -m "Resolved merge conflicts"
+
+git push -u origin main
+
+
+alternative way
+
+git push -f origin main
